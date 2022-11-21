@@ -1,0 +1,22 @@
+body{ 
+    background: salmon; 
+    font-family: roboto;  
+    color: black; 
+   } 
+    
+   h1{ 
+    width: 550px; 
+   } 
+    
+   .kotak{ 
+    background: black; 
+    width: 200px; 
+    height: 200px; 
+    animation-name: animasi_kotak; 
+    animation-duration: 2s; 
+   } 
+    
+   @keyframes animasi_kotak{ 
+    from{ background: black;} 
+    to{background: white;} 
+   }
